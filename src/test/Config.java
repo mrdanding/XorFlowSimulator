@@ -4,7 +4,7 @@ import xorLogic.XorHelper;
 
 public class Config {
 	public Config(){
-		for(int i = 0; i < 500; i++){
+		for(int i = 0; i < 10000; i++){
 			XorHelper.write("test", "sleep" + i + "=100");
 			XorHelper.write("test", "fid" + i + "=fid" + i);
 			XorHelper.write("test", "sid" + i + "=" + i);

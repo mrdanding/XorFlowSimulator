@@ -28,7 +28,7 @@ public class Transmission extends Thread {
 		
 		//arrive at the endHost and save data
 		XorHelper.suspend(this, 1000);
-		XorHelper.write("experiment2.xls", shortFlow.getFlowID() + "\t" + shortFlow.getStartTime() + "\t" + XorHelper.getCurrentTime() + "\t"  + (XorHelper.getCurrentTime() - shortFlow.getStartTime()));
+		XorHelper.write("100.xls", shortFlow.getFlowID() + "\t" + shortFlow.getStartTime() + "\t" + XorHelper.getCurrentTime() + "\t"  + (XorHelper.getCurrentTime() - shortFlow.getStartTime()));
 	}
 
 	public ShortFlow getShortFlow() {
